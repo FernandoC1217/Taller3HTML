@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Calculadora de Áreas</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <header>
+      <h1>Calculadora de Área de Figuras Geométricas</h1>
+    </header>
+
+    <section>
+    <h2>Encuentra el área del círculo</h2>
+    <img src="img/circulo.jpeg" alt="circulo">
+    <form id="circulo" oninput="areaCirculo()">
+
+      <div >Escribe el radio del círculo</div>
+      <input name="radio_circulo" type="number" value="0" />
+      <div class="equals">= </div>
+      <div>Mira tu respuesta</div>
+      <output name="resp_circulo" for="radio_circulo">0</output>
+    </form>
+
+
+
+    <h2>Encuentra el área del cuadrado</h2>
+    <img src="img/cuadrado.png" alt="cuadrado">
+    <form id="cuadrado" oninput="areaCuadrado()">
+
+      <div >Escribe el valor de uno de los lados del cuadrado</div>
+      <input name="lado_cuadrado" type="number" value="0" />
+      <div class="equals">= </div>
+      <div>Mira tu respuesta</div>
+      <output name="resp_cuadrado" for="lado_cuadrado">0</output>
+
+    </form>
+
+    <h2>Encuentra el área del Rectángulo</h2>
+    <img src="img/rectangulo.png" alt="rectangulo">
+    <form id="rectangulo" oninput="areaRectagulo()">
+
+      <div >Escribe la base del rectángulo</div>
+      <input name="b_rectangulo" type="number" value="0" />
+      <div >Escribe la altura del rectángulo</div>
+      <input name="h_rectangulo" type="number" value="0" />
+      <div class="equals">= </div>
+      <div>Mira tu respuesta</div>
+      <output name="resp_rectangulo" for="b_rectangulo h_rectangulo">0</output>
+
+    </form>
+
+    <h2>Encuentra el área del Triángulo</h2>
+    <img src="img/triangulo.png" alt="triangulo">
+    <form id="triangulo" oninput="areaTriangulo()">
+
+      <div >Escribe la base del triángulo</div>
+      <input name="b_triangulo" type="number" value="0" />
+      <div >Escribe la altura del triángulo</div>
+      <input name="h_triangulo" type="number" value="0" />
+      <div class="equals">= </div>
+      <div>Mira tu respuesta</div>
+      <output name="resp_triangulo" for="b_triangulo h_triangulo">0</outpu>
+
+    </form>
+
+  </section>
+  <br>
+  <br>
+    <footer>&copy; Fernando Cutire</footer>
+
+
+    <script src="js/area_circulo.js"></script>
+  </body>
+</html>
