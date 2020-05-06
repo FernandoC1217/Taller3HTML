@@ -1,0 +1,4 @@
+estilo de obra (Abstracto o Surrealista)
+tipo de obra (Pintura o escultura)
+nombre del autor 
+titulo de la obra
